@@ -1,0 +1,69 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<main>
+<h1 id="title">Chilly Pizzas</h1>
+
+<p id="description">Thank you for your years of service. Please fill the form to help us serve you even better</p>
+
+<form id="survey-form">
+  <fieldset id="user-info">
+  <label for="name" id="name-label">Name</label><br>
+  <input type="text" id="name" name="name" placeholder="Enter name" required><br><br>
+  
+  <label for="email" id="email-label">Email</label><br>
+  <input type="email" id="email" name="email" placeholder="Enter email"required><br><br>
+  
+  <label for="number" id="number-label">Number</label><br>
+  <input id="number" type="number" name="number" min="10" max="50" placeholder="Enter number" required><br><br>
+    <label for="dropdown">Select Your Gender</label><br>
+  <select id="dropdown" name="gender">
+      <option value="">Gender</option>  
+      <option value="male">Male</option>
+      <option value=female>Female</option>
+  </select>
+  </fieldset>
+   <fieldset id="recommendation">
+    <legend>Would you recommend Chilly Pizzas to your friends</legend>
+    
+        <input id="yes" type="radio" name="recommend-chilly-pizzas" value="yes" required>
+        <label for="Yes">Yes</label><br>
+        <input id="no" type="radio" name="recommend-chilly-pizzas" value="no">
+        <label for="No">No</label><br>
+        <input id="maybe" type="radio" value="maybe" name="recommend-chilly-pizzas">
+        <label for="maybe">Maybe</label>
+  </fieldset>
+  
+  <fieldset id="checkbox">
+    <legend>What services would you like improved in Chilly Pizzas?</legend>
+    <input id="customer-service" type="checkbox" name="services-to-improve" value="customer-service">
+    <label for="customer-service">Customer-service</label><br>
+
+    <input id="delivery" type="checkbox" name="services-to-improve" value="delivery" >
+    <label for="delivery">Delivery</label><br>
+
+    <input id="pizza-variation" type="checkbox"  name="services-to-improve" value="pizza-variation">
+    <label for="pizza-variation">Pizza variation</label><br>
+
+    <input id="pizza-price" type="checkbox" name="services-to-improve" value="pizza-price">
+    <label for="pizza-price">Pizza price</label><br>
+
+    <input id="tidiness" type="checkbox" name="services-to-improve" value="tidiness">
+    <label for="tidiness">Tidiness</label><br>
+
+    <input id="other" type="checkbox" value="other" name="services-to-improve">
+    <label for="other">Other</label>
+  </fieldset>
+  
+  <label for="suggestions" style="font-size: 1.3rem; margin-left: 21px;">Any suggestions would be very much appreciated</label><br><br>
+  <textarea  id="suggestions" cols="7" rows="6" charswidth="23" placeholder="Place your suggestions or complaints here"></textarea>
+  
+   <input id="submit" type="submit" value="Submit This Survey-Form">
+</form>
+</main>
