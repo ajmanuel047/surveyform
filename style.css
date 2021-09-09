@@ -17,7 +17,7 @@ main {
     margin-top: -8px;
     margin-bottom: 10px; 
     width: 100%;
-    height: 170vh;
+    height: 1200px;
   }
 
 #title, #description {
@@ -43,7 +43,7 @@ main {
   background-color: #B07D5D;
   margin-bottom: -10px;
   padding-bottom: 30px;
-  color: white;
+  color: #1C1C1C;
   font-weight: 800;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-radius: 5px;
