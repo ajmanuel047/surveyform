@@ -106,9 +106,7 @@ fieldset {
       justify-content: center;
     }
     
-    #survey-form {
-     background-color: black; 
-    }
+   
 }
 
 @media only screen 
@@ -117,10 +115,8 @@ fieldset {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
    body {
-     height: 1200px;
+     height: 1100px;
     }
     
-    #survey-form {
-     background-color: green; 
-    }
+   
 }
