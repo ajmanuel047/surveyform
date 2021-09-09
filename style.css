@@ -107,7 +107,7 @@ fieldset {
     }
     
     #survey-form {
-     background-color: white; 
+     background-color: black; 
     }
 }
 
@@ -117,10 +117,10 @@ fieldset {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
    body {
-     height: 1000px;
+     height: 1200px;
     }
     
     #survey-form {
-     background-color: black; 
+     background-color: green; 
     }
 }
