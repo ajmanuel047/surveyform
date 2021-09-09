@@ -33,7 +33,7 @@ body {
   background-color: #B07D5D;
   margin-bottom: -10px;
   padding-bottom: 30px;
-  color: white;
+  color: #1C1C1C;
   font-weight: 800;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-radius: 5px;
@@ -97,9 +97,7 @@ fieldset {
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-#survey-form {
-    background-color: purple;
-    }
+
     body {
       height: 80vh;
       display: flex;
