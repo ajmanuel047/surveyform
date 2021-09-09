@@ -33,7 +33,7 @@ body {
   background-color: #B07D5D;
   margin-bottom: -10px;
   padding-bottom: 30px;
-  color: white;
+  color: green;
   font-weight: 800;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border-radius: 5px;
@@ -91,4 +91,13 @@ fieldset {
 #submit {
   width: 91%;
 }
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+body {
+    height: 100vh;
+    }
 }
